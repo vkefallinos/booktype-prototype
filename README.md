@@ -61,10 +61,15 @@ Now head on over to
 and run some queries!
 (See the [Django quickstart guide](http://graphene-python.org/docs/quickstart-django/)
 for some example queries)
-The rest-api-framework is on
+
+
+the rest-api-framework ui is on
 [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api)
-The swagger UI is on
+
+
+the swagger UI is on
 [http://127.0.0.1:8000/swagger](http://127.0.0.1:8000/swagger)
+
 
 and the admin page is on 
 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
