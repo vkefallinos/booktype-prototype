@@ -9,12 +9,12 @@ Getting started
 ---------------
 
 First you'll need to get the source of the project. Do this by cloning the
-whole Graphene repository:
+repository:
 
 ```bash
-# Get the example project code
-git clone https://github.com/graphql-python/graphene.git
-cd graphene/examples/cookbook
+
+git clone https://github.com/vkefallinos/booktype-prototype
+cd booktype-prototype
 ```
 
 It is good idea (but not required) to create a virtual environment
@@ -41,10 +41,9 @@ Now setup our database:
 
 ```bash
 # Setup the database
-./manage.py migrate
+python manage.py migrate --run-syncdb
 
-# Load some example data
-./manage.py loaddata ingredients
+
 
 # Create an admin user (useful for logging into the admin UI
 # at http://127.0.0.1:8000/admin)
@@ -58,7 +57,15 @@ Now you should be ready to start the server:
 ```
 
 Now head on over to
-[http://127.0.0.1:8000/graphiql](http://127.0.0.1:8000/graphiql)
+[http://127.0.0.1:8000/graphiql](http://127.0.0.1:8000/graphql)
 and run some queries!
 (See the [Django quickstart guide](http://graphene-python.org/docs/quickstart-django/)
 for some example queries)
+The rest-api-framework is on
+[http://127.0.0.1:8000/api](http://127.0.0.1:8000/api)
+The swagger UI is on
+[http://127.0.0.1:8000/swagger](http://127.0.0.1:8000/swagger)
+
+and the admin page is on 
+[http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
